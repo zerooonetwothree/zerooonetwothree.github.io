@@ -1,20 +1,3 @@
-/*
-Padding property: space between text & border
-Margin properly: Space outside border
-ID attribute: To define specific style for ONE special element (use # to use it)
-Class attribute: To define style for special types of elements (use . to use it)
-
-*/
-
-
-
-/*  
-Use css rules to select elements on web page to style those elements:
-Selector: tells brorwser what part of web pg to style (h2)
-Element selector; selects elements based on their tag names (h1, p, li, body etc)
-Declaration: tells browser how to style that part (bold etc) 
-*/
-
 h1 {
 	colour: #ffffff;
 
@@ -36,13 +19,6 @@ p {
 	color: #ff0000;
 }
 
-/*
-Selecting by ID
-if want to just style part of p:
-give p a unique id
-only apply style to the element with this id
-# to pick id
-*/
 
 #something-unique-heading {
 	color: #9933ff;
@@ -52,11 +28,7 @@ only apply style to the element with this id
 	color: #960000;
 }
 
-/*
-Selecting by CLASS
-assign particular element to a group
-can assign as many elements as you want to a group
-*/
+
 
 .poem-lyrics {
 	background-color: yellow;
